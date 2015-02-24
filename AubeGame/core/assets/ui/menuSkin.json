@@ -1,0 +1,21 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		green: { a: 1, b: 0, g: 1, r: 0 },
+		white: { a: 1, b: 1, g: 1, r: 1 },
+		red: { a: 1, b: 0, g: 0, r: 1 },
+		black: { a: 1, b: 0, g: 0, r: 0 }
+	},
+	com.badlogic.gdx.graphics.g2d.BitmapFont: {
+		"fontBase": { "file": "font/SaegaTest.fnt"},
+		"fontName": { "file": "font/testFont.fnt", "scaleX" : 10}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		"default": { "font" : fontBase, "fontColor": white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		"default": {"up" : "buttonOn","down" : "buttonOff", "font" : fontBase}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+		"default": {"font": fontBase, "fontColor": white}
+	}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="TileMaison" tilewidth="16" tileheight="16">
+  <image source="TileMaison.png" width="480" height="256"/>
+ </tileset>
+ <layer name="TileBot" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyllOkNwjAMhZsJKFsAEmULQIJuwc0cIJiDaw6uObgmoF2AFylRXeOklfrjU6Ikfc+xnS6CIFiCQ0WmYAY2YAuuFVmBNTiCE3hVZAf24Abu4CuQgBR0VDFnnLuAN/iAmvpH8nDxAE/jb+MogsbMv0mEubRWVxk65tDMQ5XfC4U5XWtAq8loOfxpnl016IIeox/I/nZMhTpYXZeejiFS8mg1JVx60l2G0ImJJifx6LnqZ5F6U+djhL0xY+LIH43D16Ou98HzRuOQerLM+7BnY5URqXzP0rr7+syOZfwkfV+/cQ/pXrxuvn7jHm3hv0Lrxv11nmi/cY+B0aTQus0NPLdc244/tWrayw==
+  </data>
+ </layer>
+ <layer name="TileCollision" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxrZWRgaB2BmFJAK/PoBWgVLvQEQ8299AL4woWcMKO2eaTYS810OVTT+WAGAENoLH8=
+  </data>
+ </layer>
+ <layer name="TileTop" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0TkKwmAQhuFJ6ZZruB5RDxFjpYXLBVwq09mqaFLFI6i4HsHXzkIH+R3Bwg8eCAzzZeAX+e2EaBn0BGhijIlB3xAjxEiezA844oQzLrgqfSuslXnGE8kihzwK8D232+8psltCGRVUUfug750MjPtnX773VerKfxsON7WVnY5D31TZiRz6UmVn8zDr8t1D3+hd5lhgaVMnW+ywN+r7R+QGXx8c0w==
+  </data>
+ </layer>
+ <objectgroup name="TileObjetTeleport" width="20" height="20">
+  <object name="Teleport" x="128" y="304" width="16" height="16">
+   <properties>
+    <property name="Destination" value="startZone1"/>
+    <property name="PositionX" value="240"/>
+    <property name="PositionY" value="304"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="144" y="304" width="16" height="16">
+   <properties>
+    <property name="Destination" value="startZone1"/>
+    <property name="PositionX" value="240"/>
+    <property name="PositionY" value="304"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

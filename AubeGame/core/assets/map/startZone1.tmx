@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Foret1" tilewidth="16" tileheight="16">
+  <image source="Foret1.png" width="480" height="256"/>
+ </tileset>
+ <layer name="TileBot" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNlVtuwjAQRZ0VNMtwuxDoQtpKPLdBXx8NqwA+EAsB9mKyAW6kjHob2UlcJhYfRzOAPeM7M9jOGHMBLtL2JbR/nhmzAMssrf8JvsB3Yn8DtmCX2I/tq6v5wd519ttHCx7BU884D9ibZ3G22ruHPdC5R2AMnk2/OP/V28z7Al7BW6TeMnBOZ/z/Hcl7oTjWU7+2uF3nkrWM5M0pjo2oW1cfhGqOCmJSU9TzJXqtUn8l3zv4ACuPz322Snr3ta4pmAX8A63X0nsMaGT/TP3Q0ltxbNHbzKmll3M39frmWe4srXmW3CeCtVbr+c7S0uvM3zP4PvOdVd6ot6sO/D3XeYj7OWS5zkO8Rz5rG3XW1Fu2/J7i/W3ra9f7K++Tdl9j399bLPfVN+dDz3OM1ZrnWHtPessEdbgnvSnsFWbHynE=
+  </data>
+ </layer>
+ <layer name="TileCollision" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgY0MA4iumBaRFf9ATDwV5SzaG3XweDvSPRzyPFXmzxS484Hw5lx6i9g8teWtWvpNg7EHYONXvJ0TtQ6XgUIMBwCv+h6BcAk/FMGA==
+  </data>
+ </layer>
+ <layer name="TileTop" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxIBexoGxdzWN7K0GmlsDxLVAXEdjv11FMn8mkD0LiGcD8Rw6hul2oF07gHgnEO+io70gv18D4utAfGOA0tAoIA7QM08gg9E8MQpGwfAHo+ULfQC1y5fhFG/E+IUW8UaMX2hRLwyXNEgvAABdUDdZ
+  </data>
+ </layer>
+ <objectgroup name="TileObjetTeleport" width="30" height="30" visible="0">
+  <object name="Teleport" x="224" y="64" width="16" height="16">
+   <properties>
+    <property name="Destination" value="Maison1"/>
+    <property name="PositionX" value="128"/>
+    <property name="PositionY" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
