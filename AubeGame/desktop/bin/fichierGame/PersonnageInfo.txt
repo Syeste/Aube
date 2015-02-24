@@ -1,0 +1,1 @@
+Personnage1:Syeste:40:30:Maison1:Personnage2:Guigui:100:100:startZone1:Personnage3:null:0:0:null
